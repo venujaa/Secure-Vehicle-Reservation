@@ -1,0 +1,157 @@
+/*
+~   Copyright (c) 2018 WSO2 Inc. (http://wso2.com) All Rights Reserved.
+~
+~   Licensed under the Apache License, Version 2.0 (the "License");
+~   you may not use this file except in compliance with the License.
+~   You may obtain a copy of the License at
+~
+~        http://www.apache.org/licenses/LICENSE-2.0
+~
+~   Unless required by applicable law or agreed to in writing, software
+~   distributed under the License is distributed on an "AS IS" BASIS,
+~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~   See the License for the specific language governing permissions and
+~   limitations under the License.
+*/
+
+body {
+    background: #f0f8ff; /* Light blue background for better contrast */
+    color: #333; /* Darker text for readability */
+    font-family: 'Arial', sans-serif; /* Uniform font style */
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Login page */
+
+.login-block {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: #e0f7fa; /* Soft light cyan background */
+}
+
+.login-sec {
+    padding: 3rem 2rem;
+    background: #ffffff; /* Clean white background for the form */
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-login {
+    background-color: #007bff; /* Bright blue for buttons */
+    color: white;
+    font-size: 1.1rem; /* Slightly larger font for buttons */
+}
+
+a.btn-login:hover {
+    color: #fff;
+}
+
+.app-icon {
+    background-color: #ffffff; /* White icon background */
+    border-color: #007bff; /* Matching blue border */
+}
+
+.app-name {
+    font-size: 1.75rem; /* Slightly larger font for branding */
+    font-weight: bold;
+}
+
+.login-footer {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.login-img {
+    height: 4rem; /* Slightly larger for visibility */
+}
+
+/* Home page */
+
+.app-navbar {
+    background-color: #1a1a2e; /* Dark navy background */
+    min-height: 4.5rem; /* Taller for a prominent look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.app-navbar .navbar-brand {
+    color: #f0f8ff; /* Light text color */
+    font-size: 1.6rem; /* Slightly larger font for branding */
+    letter-spacing: 0.2rem;
+}
+
+.main-content .jumbotron {
+    background: #e3f2fd; /* Light blue background */
+    color: #333; /* Dark text */
+}
+
+.main-content .jumbotron-heading {
+    color: #333;
+    font-size: 2rem; /* Larger heading */
+    font-weight: bold;
+}
+
+.main-content .nav-tabs {
+    border-bottom: 1px solid #007bff; /* Blue bottom border */
+}
+
+.tab-title {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+/* Profile */
+
+.profile .jumbotron-heading {
+    font-size: 1.5rem; /* Larger font for headings */
+    color: #007bff; /* Blue accent */
+}
+
+.profile .main-content .jumbotron {
+    background: #f8f9fa;
+    padding-bottom: 1rem;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1a1a2e; /* Dark navy footer */
+    color: #f0f8ff; /* Light text color */
+    height: 4rem; /* Taller footer */
+}
+
+.footer span {
+    font-size: 0.85rem; /* Slightly larger font */
+}
+
+.wso2-logo {
+    height: 2.5rem;
+}
+
+/* Debugger Styles */
+
+.timeline {
+    border-left-color: #007bff; /* Blue border for timeline */
+}
+
+.timeline h1 {
+    color: #333; /* Dark text for headings */
+    font-size: 1.25rem; /* Larger font */
+    border-bottom: 1px solid #007bff; /* Blue accent for header border */
+}
+
+.timeline h2 {
+    color: #6c757d; /* Lighter grey for subtitles */
+    font-size: 1.1rem;
+}
+
+.timeline code {
+    font-size: 1rem; /* Larger, easier to read code font */
+}
+
+.wrapper {
+    background-color: #f0f8ff; /* Light blue background */
+}
